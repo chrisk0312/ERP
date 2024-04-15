@@ -8,6 +8,7 @@ def load_data(filename = "C:\\study\\ERP\\SAP_bike_sales(datasets)\\Addresses.cs
 
 load_data()
 
+#pip install nltk
 #Creating a chatbot involves natural language processing
 
 import nltk
@@ -15,8 +16,8 @@ from nltk.chat.util import Chat, reflections
 
 pairs = [
     [
-        r"my name is (.*)",
-        ["Hello %1, How are you today ?",],
+        r"who are you",
+        [" IDK, How are you today ?",],
     ],
     [
         r"hi|hey|hello",
