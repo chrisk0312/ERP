@@ -1,55 +1,101 @@
-﻿ADDRESSID,CITY,POSTALCODE,STREET,BUILDING,COUNTRY,REGION,ADDRESSTYPE,VALIDITY_STARTDATE,VALIDITY_ENDDATE,LATITUDE,LONGITUDE
-1000000034,West Nyack,10994,Settlers Lane,5027,US,AMER,2,20000101,99991231,41.100057,-73.973562
-1000000035,Fair Oaks,95628,Woodland Terrace,4467,US,AMER,2,20000101,99991231,38.638355,-121.286683
-1000000036,Dunn,28334,Layman Avenue,2250,US,AMER,2,20000101,99991231,35.312013,-78.609950
-1000000037,Chicago,60605,University Drive,4697,US,AMER,2,20000101,99991231,41.874591,-87.627303
-1000000038,Ocala,34471,Bagwell Avenue,1565,US,AMER,2,20000101,99991231,29.183977,-82.118413
-1000000039,Callenberg,02681,Kantstraße,56,DE,EMEA,2,20000101,99991231,51.096588,14.433772
-1000000040,Trimport,54636,Luetzowplatz,74,DE,EMEA,2,20000101,99991231,49.908759,6.578609
-1000000041,Berlin Mariendorf,12107,Brandenburgische Straße,10,DE,EMEA,2,20000101,99991231,52.492245,13.310903
-1000000042,Marne,25705,An Der Urania,30,DE,EMEA,2,20000101,99991231,53.952609,9.018139
-1000000043,Augsburg,86045,Sonnenallee,43,DE,EMEA,2,20000101,99991231,48.370625,10.893961
-1000000044,Glyntaff,CF37 3JJ,Brynglas Road,106,GB,EMEA,2,20000101,99991231,51.597073,-3.321350
-1000000045,Stanton Wick,BS18 9DW,Pier Road,86,GB,EMEA,2,20000101,99991231,51.355959,-2.557565
-1000000046,Talgarth,LD3 7QD,Scotsburn Rd,75,GB,EMEA,2,20000101,99991231,51.995666,-3.230553
-1000000047,Stonestreet Green,TN25 2XG,Broomfield Place,48,GB,EMEA,2,20000101,99991231,51.098513,0.950137
-1000000048,London,SE14 8JW,Guild Street,50,GB,EMEA,2,20000101,99991231,51.515982,-0.091245
-1000000049,Kitoba,4605,Raglan Street,5,AU,APJ,2,20000101,99991231,-26.073321,151.859836
-1000000050,Meadow Heights,3048,Creedon Street,11,AU,APJ,2,20000101,99991231,-37.651278,144.923051
-1000000051,Kununurra,6743,Darwinia Loop,11,AU,APJ,2,20000101,99991231,-15.802511,128.746775
-1000000052,Canberra,2601,Quayside Vista,18,AU,APJ,2,20000101,99991231,-35.279663,149.126715
-1000000053,Canberra,2601,Quayside Vista,95,AU,APJ,2,20000101,99991231,-35.278051,149.124245
-1000000054,Mumbai,400092,Rahul Enclave,105,IN,APJ,2,20000101,99991231,19.313940,72.857565
-1000000055,Hyderabad,400092,Nampally,43,IN,APJ,2,20000101,99991231,17.385758,78.467547
-1000000056,Mumbai,400017,Rewa Fort Colony,15,IN,APJ,2,20000101,99991231,19.046575,72.864262
-1000000057,Mumbai,400012,Ambedkar Road,10,IN,APJ,2,20000101,99991231,19.073197,72.826831
-1000000058,Delhi,110005,Faiz Road,93,IN,APJ,2,20000101,99991231,28.650563,77.200575
-1000000059,Jebel Ali Free Zone,18673,Box No. 18673,,DU,EMEA,2,20000101,99991231,25.006517,55.065244
-1000000060,Dubai,39388,Box No. 39388,,DU,EMEA,2,20000101,99991231,25.013792,55.131876
-1000000061,Dubai,92064,Box No. 92064,,DU,EMEA,2,20000101,99991231,24.960345,55.124104
-1000000062,Dubai,30134,Box No. 30134,,DU,EMEA,2,20000101,99991231,24.956728,55.120386
-1000000063,Jebel Ali Free Zone,16939,Box No. 16939,,DU,EMEA,2,20000101,99991231,24.963277,55.053726
-1000000064,Borden,S4P 3Y2,St. John Street,3578,CA,AMER,2,20000101,99991231,47.595469,-52.703448
-1000000065,Cooksville,L5A 1V9,Heatherleigh,3404,CA,AMER,2,20000101,99991231,43.570089,-79.609911
-1000000066,Iroquois,K0E 1K0,Elgin Street,1008,CA,AMER,2,20000101,99991231,44.845124,-75.318280
-1000000067,Schefferville,J0C 1G0,rue des Églises Est,2273,CA,AMER,2,20000101,99991231,54.809261,-66.815519
-1000000068,Toronto,M5H 1P6,Adelaide St,1483,CA,AMER,2,20000101,99991231,43.647763,-79.391022
-1000000069,Chelles,77500,rue Ernest Renan,21,FR,EMEA,2,20000101,99991231,48.878471,2.589870
-1000000070,Laon,02000,Place Napoléon,55,FR,EMEA,2,20000101,99991231,49.553186,3.627835
-1000000071,Besanon,25000, rue Jean Vilar,73,FR,EMEA,2,20000101,99991231,47.242859,6.035751
-1000000072,Athis-Mons,91200,rue de Lille,54,FR,EMEA,2,20000101,99991231,48.705235,2.375049
-1000000073,Paris,75006,rue Nationale,114,FR,EMEA,2,20000101,99991231,48.827364,2.366021
-1000000001,Burr Ridge,60527,Fraggle Drive,996,US,AMER,1,20000101,99991231,41.748490,-87.918277
-1000000002,Floß,92683,Borstelmannsweg,57,DE,EMEA,1,20000101,99991231,53.550141,10.052733
-1000000003,High Halden,TN26 7GJ,Nenthead Road,126,GB,EMEA,1,20000101,99991231,51.101237,0.698829
-1000000004,Sleepy Hollow,2483,Chester Street,48,AU,APJ,1,20000101,99991231,-28.420591,153.524102
-1000000005,Mumbai,400015,T.k.indui Estate,11,IN,APJ,1,20000101,99991231,19.175001,72.850043
-1000000006,Dubai,89610,Box No. 89610,,DU,EMEA,1,20000101,99991231,24.968781,55.129116
-1000000007,Annaheim,S4P 3Y2,St. John Street,2845,CA,AMER,1,20000101,99991231,52.319432,-104.820274
-1000000008,Strasbourg,67100,rue Descartes,23,FR,EMEA,1,20000101,99991231,48.578824,7.762616
-1000000009,San Luis Obispo,93401,Par Drive,1378,US,AMER,1,20000101,99991231,35.284387,-120.659734
-1000000010,Jersey City,07305,Lakewood Drive,285,US,AMER,1,20000101,99991231,40.816042,-74.188869
-1000000011,Wingate,79566,Frederick Street,728,US,AMER,1,20000101,99991231,39.418878,-77.409172
-1000000012,Toronto,M2J 3T7,Victoria Park Ave,2523,CA,AMER,1,20000101,99991231,43.748615,-79.311992
-1000000013,Toronto,M1S 1T4,Sheppard Ave,1122,CA,AMER,1,20000101,99991231,43.747480,-79.482548
-1000000014,Toronto,P3E 4N2,Paris St,3443,CA,AMER,1,20000101,99991231,43.609163,-79.645953
+﻿AddressID,Name,Address,Country,Addresstype,Phone
+10001,Sydney (Emarsys Offices),"Denison Street North Sydney, NSW 2060",Australia,1,+61 2 9935 4644
+10002,Adelaide,"Level 21, 25 Grenfell Street Adelaide  SA  5000",Australia,1,+61 2 9935 4644
+10003,Brisbane,"Level 20, 140 Creek Street Brisbane  QLD  4000",Australia,1,+61 7 3259 9599
+10004,Canberra,"Equinox 4, Level 3 70 Kent Street Deakin ACT 2600",Australia,1,"+61 2 6214 0300 "
+10005,Melbourne,"Level 23, 28 Freshwater Place Melbourne Southbank VIC 3006",Australia,1,+61 3 9862 7100
+10006,Perth,"Level 15, 109 St Georges Terrace  Perth WA 6000",Australia,1,"+61 8 6140-9700 "
+10007,Tokyo,Mitsui Bussan Bldg. 11-12F (reception: 2F) 1-2-1 Otemachi Chiyoda-ku Tokyo 100-0004,"Japan ",2,+81-3-6737-3000
+10008,West Region Branch,"Umeda Dai Building 3-3-10 Umeda, Kita-ku Osaka-shi, Osaka 530-0001 ","Japan ",2,+81-6-6345-3333
+10009,Nagoya Branch,"Sakuradori Toyota Bldg.14F 4-5-28 Meieki, Nakamura-ku Nagoya-shi, Aichi 450-0002 ","Japan ",2,+81-52-581-3311
+10010,Kyushu Branch,"SPACES. 5F 3-4-25 Hakata Ekimae, Hakata-ku Fukuoka-shi, Fukuoka 812-0011","Japan ",2,+81-92-419-7080
+10011,SAP Experience Center Tokyo,Otemachi Bldg. 9F 1-6-1 Otemachi Chiyoda-ku Tokyo 100-0004,"Japan ",2,null
+10012,SAP Innovation Field Fukushima,SmartCityAiCT 3F 1-77 Higashisakaemachi Aizuwakamatsu-shi Fukushima 965-0872,"Japan ",2,null
+10013,Headquarters Office,30 Pasir Panjang Road #03-32 Mapletree Business City Singapore 117440,Singapore,3,+65 6664 6868
+10014,Beijing,"Floor 10, Building 3, World Profit Center No. 16, Tianze Road, Chaoyang District Beijing 100016",China,4,+86/10/65898888
+10015,Dalian DLSP16,"4/F, DLSP16 International Information Service Center NO.269 Wuyi Road.Shahekou Dist. Dalian 116023",China,4,"+86 411 84836868 "
+10016,Dalian DLSP17,"5/F, DLSP17 International Information Service Center NO.267 Wuyi Road Shahekou Dist. Dalian 116023",China,4,+86/411/82415555
+10017,Guangzhou,"Unit 5709-12, CTF Finance Centre No.6 Zhujiang East Road Guangzhou 510613",China,4,+86/20/3817-8860
+10018,Shanghai Chamtime,"Building D, Chamtime Plaza No.2889 Jinke Road, Pudong New District Shanghai 201203",China,4,+86/21/80372499
+10019,Shanghai Wheelock,"47th floor, Wheelock Square 1717 Nan Jing West Road 200040, Shanghai",China,4,+86/21/2221-3000
+10020,Shenzhen,"24/F, Kerry Plaza 3, No. 1-1, 4th Zhongxin Rd. Futian District  Shenzhen 518048 ",China,4,"+86/755/2397-8088 "
+10021,Wuhan,"Room 5003, 50F, Yuexiu Fortune Center No.1 ZhongShan Avenue, QiaoKou District Wuhan 430030",China,4,"+86/27/59357100 "
+10022,SAP Korea Main Office,"28 Fl. MMAA Bldg. 2806 Nambusunhwan-ro Gangnam-gu, Seoul Korea 06292",Korea,5,+82-2-2194-2400
+10023,SAP Education Korea,"28 Fl. MMAA Bldg. 2806 Nambusunhwan-ro Gangnam-gu, Seoul Korea 06292",Korea,5,+82-2-2194-2660
+10024,SAP Labs Korea,"20, 21 Fl 235 Banpo-daero Seocho-gu, Seoul Korea 06578",Korea,5,+82-2-2143-5000
+10025,"SAP Taiwan Co., Ltd. ","10F, Hua Nan Bank Headquarter Office Building No. 123 Songren Rd. Xinyi District, Taipei Taiwan 11073","Taiwan, China",6,+886 2 8780 0188
+10026,SAP Hong Kong (Emarsys Offices),"35/F, Tower Two Times Square, 1 Matheson Street, Causeway Bay, Hong Kong",Hong Kong,7,"+852 2539-1800 "
+10027,"SAP Malaysia Sdn Bhd (236985-P) ","Level 29, Menara Southpoint Mid Valley City, Medan Syed Putra Selatan 59200 Kuala Lumpur ","Malaysia ",8,"+603-2202-6000 "
+10028,"SAP Systems , Applications And Products In Data Processing (Thailand) Limited","Units 1401-1402, 14th Floor, 
+Park Silom Tower, 
+1 Convent Road, Silom, Bangrak, 
+Bangkok 10500
+Thailand",Thailand,9,+662-821-6170
+10029,Bengaluru,"6th Floor, RMZ Ecoworld, 8A Campus, 
+Sarjapur-Marathahalli Outer Ring Road 
+Devarabeesanahalli 
+Bengaluru - 560 103 ",India,10,+91 80 6665 5555
+10030,Kolkata,"C/o. Regus Grandeur Offices Pvt. Ltd.
+PS Arcadia, 9th floor, 4A,
+Abanindra Nath Thakur Sarani, West Bangal
+Kolkata - 700016",India,10,+91 33 6651 3201
+10031,New Delhi,"Wing-A, 3rd Floor, Prius Platinum,D-3+P3B
+District Centre, Saket
+New Delhi - 110017",India,10,+91 11 6929 9686
+10032,Mumbai,"5th Floor, G-Block 
+C-59, BKC, Bandra East 
+Mumbai - 400 051 ",India,10,+91 22 6655 6888 / +91 22 3047 6888
+10033,Bengaluru,"#138, EPIP Zone 
+Whitefield 
+Bengaluru - 560066 ",India,10,+91 80 4139 5139
+10034,Bengaluru Concur,"Concur Technologies India Pvt Ltd
+Level 3, A Block, Lakeview Building, 
+Bagmane Tech Park, 
+C V Raman Nagar, Bangalore - 560093
+India",India,10,+91 80 6829 2000
+10035,Bengaluru RMZ,"RMZ NXT, 2B/2C, Sonnenahalli Village 
+Mahadevapura, East Taluk 
+Bengaluru - 560066 
+India ",India,10,+91 080 5139 9000
+10036,"Hyderabad Callidus
+","CallidusCloud India Limited
+Unit No 601, Sixth Floor, Building No 12 B,
+Mind Space Madhapur,
+Hyderabad - 500081",India,10,+91 40 6830 0300
+10037,Gurugram,"Vatika Towers, 4th Floor 
+Sector 54, Golf Course Road 
+Gurugram, Haryana - 122002 ",India,10,+91 124 4357777
+10038,Mumbai,"Unit No.402B on the 4th floor of the building “Platina”,
+Plot No.C-59, G Block,
+Near Citi Bank,
+Bandra Kurla Complex,
+Bandra (East),",India,10,null
+10039,Pune,"International Tech Park,
+Gat No. 1344/3, 1344/4 and Survey No. 63/1/6,
+Wagholi Village, Kharadi Road,
+Haveli Taluka, Pune – 411014",India,10,+ 91 20 41985101
+10040,Auckland,"Level 15, 151 Queen Street 
+Auckland 
+P.O. Box 108-150 
+Auckland 1010 ",New Zealand,11,"+64 9 355 5800 "
+10041,Wellington,"Level 18, 1 Willis St,
+6011 Wellington",New Zealand,11,+64 4 460-8400
+10042,"Representative Office
+Ho Chi Minh City","Level 21, CEO Suite #22,
+Vietcombank Tower,
+No 5, Me Linh Square, 
+Ben Nghe Ward,
+District 1, Ho Chi Minh City",Vietnam,12,null
+10043,"Representative Office
+Hanoi","Suite 501, SPACES Building,
+28A Tran Hung Dao Street,
+Hoan Kiem District,
+Hanoi City",Vietnam,12,null
+10044,"PT. SAP Indonesia ","WTC II, 9th Floor 
+Metropolitan Complex 
+JI. Jend. Sudirman Kav. 29-31 
+Jakarta 12920, Indonesia ",Indonesia,13,"+62 21 3003 2800 "
+10045,"SAP Philippines Inc. ","27th Floor NAC Tower 
+32nd Street Bonifacio Global City 
+Taguig City, 1632 
+Philippines ","Philippines ",14," +632-8705-2500 "

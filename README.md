@@ -1,4 +1,6 @@
 
-## Based on kaggle sample, I personally modified ERP sample to understand SAP ERP
-Please check Perosnal file 
+## Based on kaggle sample (SAP Bikes Sales)
+## Ref = (https://www.kaggle.com/datasets/yasinnaal/bikes-sales-sample-data/code)
+## I personally modified the sample to understand SAP ERP
+
 
