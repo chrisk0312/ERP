@@ -14,7 +14,7 @@ rows_str = ['\n'.join(f'{k} : {v}' for k, v in zip(header, row)) for row in rows
 # Generate pairs using a loop
 pairs = [[f"{i+20001}", [rows_str[i],]] for i in range(len(rows_str))]
 
-pairs.append([r"quit", ["Thank you.\nIt was nice talking to you. \nHave a wonderful day!:)"]])
+pairs.append([r"quit", ["Thank you.\nIt was nice talking to you.\nHave a wonderful day!:)"]])
 
 def chatbot():
     print("Hello!\nI am here to help you find which company is SAP global strategic partners.\n"
