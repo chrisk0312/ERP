@@ -1,3 +1,36 @@
+# ref = https://www.sap.com/korea/about/company/office-locations.html
+
+import csv
+from nltk.chat.util import Chat, reflections
+
+# Read the CSV file and store all the rows
+with open("C:\\study\\ERP\\SAP_bike_sales(datasets)\\Addresses.csv", 'r', encoding='utf-8') as file:
+    reader = csv.reader(file)
+    header = next(reader)  # Get the header
+    rows = list(reader)  # Get all the rows
+
+# Combine the header and each row into a dictionary, then convert to a string
+rows_str = ['\n'.join(f'{k.replace("癤풞", "A")} : {v}' for k, v in zip(header, row)) for row in rows]
+
+# Generate pairs using a loop
+pairs = [[f"{i+10001}", [rows_str[i],]] for i in range(len(rows_str))]
+
+pairs.append([r"quit", ["Thank you.\nIt was nice talking to you. \nHave a wonderful day!:)"]])
+
+def chatbot():
+    print("Hello!\nI am here to help you find SAP Asia Pacific region office.\n"
+          "Please enter the Address ID you wish to search for.\n"
+          "Address ID is a 5 digit number starting from 10001 to 10045."
+          )
+
+    chat = Chat(pairs, reflections)
+    chat.converse()
+
+if __name__ == "__main__":
+    chatbot()
+    
+
+'''
 
 import csv
 from nltk.chat.util import Chat, reflections
@@ -206,3 +239,5 @@ def chatbot():
 
 if __name__ == "__main__":
     chatbot()
+'''
+    
