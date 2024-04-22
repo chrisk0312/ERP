@@ -17,7 +17,7 @@ pairs = [[f"{i+30001}", [rows_str[i],]] for i in range(len(rows_str))]
 pairs.append([r"quit", ["Thank you.\nIt was nice talking to you.\nHave a wonderful day!:)"]])
 
 def chatbot():
-    print("Hello!\nI am here to help you find sample of SAP employee contact.\n"
+    print("Hello!\nI am here to help you find sample of SAP employee contacts.\n"
           "Please enter the Employee ID you wish to search for.\n"
           "Employee ID is a 5 digit number starting from 30001 to 30020."
           )

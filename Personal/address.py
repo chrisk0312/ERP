@@ -15,12 +15,12 @@ rows_str = ['\n'.join(f'{k.replace("癤풞", "A")} : {v}' for k, v in zip(header
 # Generate pairs using a loop
 pairs = [[f"{i+10001}", [rows_str[i],]] for i in range(len(rows_str))]
 
-pairs.append([r"quit", ["Thank you.\nIt was nice talking to you. \nHave a wonderful day!:)"]])
+pairs.append([r"quit", ["Thank you.\nIt was nice talking to you. \nHave a wonderful day!)"]])
 
 def chatbot():
-    print("Hello!\nI am here to help you find SAP Asia Pacific region office.\n"
+    print("Hello!\nI am here to help you find SAP Asia Pacific region offices.\n"
           "Please enter the Address ID you wish to search for.\n"
-          "Address ID is a 5 digit number starting from 10001 to 10045."
+          "Address ID is a 5 digit number starting from 10001 to 10045." 
           )
 
     chat = Chat(pairs, reflections)

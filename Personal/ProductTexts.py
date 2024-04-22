@@ -17,8 +17,8 @@ pairs.append([r"quit", ["Thank you.\nIt was nice talking to you.\nHave a wonderf
 
 def chatbot():
     print("Hello!\nI am here to help you find sample of SAP ProductTexts.\n"
-          "Please enter the ProductTexts you wish to search for.\n"
-          "ProductTexts category ID is a 5 digit number starting from 40001 to 40009."
+          "Please enter the ProductText category ID you wish to search for.\n"
+          "ProductText category ID is a 5 digit number starting from 40001 to 40009."
           )
 
     chat = Chat(pairs, reflections)
