@@ -1,5 +1,10 @@
 # ref = https://arxiv.org/pdf/2210.03629.pdf
-
+"""
+pip install langchain
+pip install langchain_experimental
+pip install openai
+ """
+ 
 import os
 import pandas as pd
 from langchain.agents import load_tools
