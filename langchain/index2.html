@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <div id="chat-container">
+        <div id="chat-box">
+            <p id="chat-start">AI: Hello! How can I help you today?</p>
+        </div>
+        <input type="text" id="user-input" placeholder="Type here..." />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        function sendMessage() {
+            var user_input = document.getElementById("user-input").value;
+            document.getElementById("user-input").value = "";
+            var chat_box = document.getElementById("chat-box");
+            var user_message = document.createElement("p");
+            user_message.innerHTML = "User: " + user_input;
+            chat_box.appendChild(user_message);
+            
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/get?msg=" + user_input, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var response = xhr.responseText;
+                    var bot_message = document.createElement("p");
+                    bot_message.innerHTML = "AI: " + response;
+                    chat_box.appendChild(bot_message);
+                    chat_box.scrollTop = chat_box.scrollHeight;
+                }
+            }
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
