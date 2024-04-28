@@ -35,15 +35,3 @@ if __name__ == '__main__':
 #0611
 # from flask import Flask, render_template, request
 # from PyPDF2 import PdfFileReader
-#test 0523
-#test 0519
-#test 0518
-#test 0516
-#test 0515
-#test 0513
-#test 0512
-#test 0511
-#test 0506
-#test 0505
-#test 0504
-#test 0503
