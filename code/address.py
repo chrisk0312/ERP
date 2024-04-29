@@ -4,7 +4,7 @@ import csv
 from nltk.chat.util import Chat, reflections
 
 # Read the CSV file and store all the rows
-with open("C:\\study\\ERP\\SAP_bike_sales(datasets)\\Addresses.csv", 'r', encoding='utf-8') as file:
+with open("C:\\study\\ERP_chatbot\\datasets\\Addresses.csv", 'r', encoding='utf-8') as file:
     reader = csv.reader(file)
     header = next(reader)  # Get the header
     rows = list(reader)  # Get all the rows
