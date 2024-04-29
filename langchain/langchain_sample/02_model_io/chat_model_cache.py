@@ -5,8 +5,9 @@ from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage
 
 langchain.llm_cache = InMemoryCache() #← llm_cache에 InMemoryCache 설정
+openai_api_key = "YOUR_OPENAI_API_KEY_HERE"  # <-- Replace "YOUR_OPENAI_API_KEY_HERE" with your actual OpenAI API key
+chat = ChatOpenAI(openai_api_key=openai_api_key)
 
-chat = ChatOpenAI()
 start = time.time() #← 실행 시작 시간 기록
 result = chat([ #← 첫 번째 실행을 수행
     HumanMessage(content="안녕하세요!")
