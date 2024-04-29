@@ -1,11 +1,18 @@
 import chainlit as cl
 from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.memory import ConversationBufferMemory  #← ConversationBufferMemory 가져오기
 from langchain.schema import HumanMessage
+from langchain_community.chat_models import ChatOpenAI
 
+openai_api_key = "YOUR_OPENAI_API_KEY_HERE"  # <-- Replace "YOUR_OPENAI_API_KEY_HERE" with your actual OpenAI API key
+chat = ChatOpenAI(openai_api_key=openai_api_key)
+
+openai_api_key=openai_api_key
 chat = ChatOpenAI(
     model="gpt-3.5-turbo"
 )
+
 
 memory = ConversationBufferMemory( #← 메모리 초기화
     return_messages=True
