@@ -1,207 +1,32 @@
-import csv
-from nltk.chat.util import Chat, reflections
+import PyPDF2 #module to read pdf files
+import fitz
+import pickle
+import os
 
-# Read the CSV file and store all the rows
-with open("C:\\study\\ERP\\SAP_bike_sales(datasets)\\Addresses.csv", 'r', encoding='utf-8') as file:
-    reader = csv.reader(file)
-    header = next(reader)  # Get the header
-    rows = list(reader)  # Get all the rows
+# Load PDF
+pdf_file = open('thesis1.pdf', 'rb')
+pdf_reader = PyPDF2.PdfFileReader(pdf_file)
 
-# Combine the header and each row into a dictionary, then convert to a string
-rows_str = ['\n'.join(f'{k.replace("癤풞", "A")} : {v}' for k, v in zip(header, row)) for row in rows]
+# Split PDF into pages
+pages = []
+for page_num in range(pdf_reader.numPages):
+    page = pdf_reader.getPage(page_num)
+    pages.append(page)
 
-pairs = [
-    [
-        r"10001",
-        [rows_str[0],],
-    ],
-    [
-        r"10002",
-        [rows_str[1],],
-    ],
-    [
-        r"10003",
-        [rows_str[2],], 
-    ],
-    [
-        r"10004",
-        [rows_str[3],], 
-    ],
-        [
-        r"10005",
-        [rows_str[4],],
-    ],
-    [
-        r"10006",
-        [rows_str[5],],
-    ],
-    [
-        r"10007",
-        [rows_str[6],], 
-    ],
-    [
-        r"10008",
-        [rows_str[7],], 
-    ],
-    [
-        r"10009",
-        [rows_str[8],],
-    ],
-    [
-        r"10010",
-        [rows_str[9],],
-    ],
-    [
-        r"10011",
-        [rows_str[10],], 
-    ],
-    [
-        r"10012",
-        [rows_str[11],], 
-    ],
-        [
-        r"10013",
-        [rows_str[12],],
-    ],
-    [
-        r"10014",
-        [rows_str[13],],
-    ],
-    [
-        r"10015",
-        [rows_str[14],], 
-    ],
-    [
-        r"10016",
-        [rows_str[15],], 
-    ],
-    [
-        r"10017",
-        [rows_str[16],],
-    ],
-    [
-        r"10018",
-        [rows_str[17],],
-    ],
-    [
-        r"10019",
-        [rows_str[18],], 
-    ],
-    [
-        r"10020",
-        [rows_str[19],], 
-    ],
-        [
-        r"10021",
-        [rows_str[20],],
-    ],
-    [
-        r"10022",
-        [rows_str[21],],
-    ],
-    [
-        r"10023",
-        [rows_str[22],], 
-    ],
-    [
-        r"10024",
-        [rows_str[23],], 
-    ],
-    [
-        r"10025",
-        [rows_str[24],],
-    ],
-    [
-        r"10026",
-        [rows_str[25],],
-    ],
-    [
-        r"10027",
-        [rows_str[26],], 
-    ],
-    [
-        r"10028",
-        [rows_str[27],], 
-    ],
-    [
-        r"10029",
-        [rows_str[28],],
-    ],
-    [
-        r"10030",
-        [rows_str[29],],
-    ],
-    [
-        r"10031",
-        [rows_str[30],], 
-    ],
-    [
-        r"10032",
-        [rows_str[31],], 
-    ],
-    [
-        r"10033",
-        [rows_str[32],],
-    ],
-    [
-        r"10034",
-        [rows_str[33],],
-    ],
-    [
-        r"10035",
-        [rows_str[34],], 
-    ],
-    [
-        r"10036",
-        [rows_str[35],], 
-    ],
-    [
-        r"10037",
-        [rows_str[36],],
-    ],
-    [
-        r"10038",
-        [rows_str[37],],
-    ],
-    [
-        r"10039",
-        [rows_str[38],], 
-    ],
-    [
-        r"10040",
-        [rows_str[39],], 
-    ],
-     [
-        r"10041",
-        [rows_str[40],],
-    ],
-    [
-        r"10042",
-        [rows_str[41],],
-    ],
-    [
-        r"10043",
-        [rows_str[42],], 
-    ],
-    [
-        r"10044",
-        [rows_str[43],], 
-    ],
-        [
-        r"10045",
-        [rows_str[44],],
-    ],
-    [
-        r"quit",
-        ["Thank you.\nIt was nice talking to you. \nHave a wonderful day!"],
-    ],
-]
+# Embed data into first page
+data = {"key": "value"}
+pages[0].updatePageContent(data)
 
-def chatbot():
-    print("Hello, Please type Address ID.")
+# Store pages
+with open('pages.pkl', 'wb') as f:
+    pickle.dump(pages, f)
 
-    chat = Chat(pairs, reflections)
-    chat.converse()
+# Close the PDF file
+pdf_file.close()
 
-if __name__ == "__main__":
-    chatbot()
+# Retrieve pages
+with open('pages.pkl', 'rb') as f:
+    retrieved_pages = pickle.load(f)
+
+# Print the content of the first page
+print(retrieved_pages[0].extractText())
