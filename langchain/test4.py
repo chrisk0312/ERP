@@ -23,7 +23,7 @@ def process_pdf(pdf_path):
             embedded_texts = pickle.load(f)
         for text in embedded_texts:
             if question in text:
-                return text
+                return text.split(".")[0] + "."
         return "Sorry, I couldn't find any information related to your question."
     
     return chatbot
