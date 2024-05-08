@@ -1,0 +1,9 @@
+<form method="POST">
+    <input type="text" name="search" placeholder="Enter your search query">
+    <input type="submit" value="Search">
+</form>
+
+{% if result %}
+    <p>Results:</p>
+    <p>{{ result }}</p>
+{% endif %}

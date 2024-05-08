@@ -72,7 +72,7 @@ def process_command(command, args):
         c = canvas.Canvas("new.pdf")
         c.drawString(100, 750, args[0])
         c.save()
-        return "Added text to new.pdf"
+        return "comment?.pdf"
     else:
         return "I don't understand that command."
 
