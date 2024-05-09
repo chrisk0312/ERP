@@ -3,7 +3,7 @@ import subprocess
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/file:///C:/study/ERP_chatbot/html/ERPindex.html', methods=['GET', 'POST'])
 def home():
     result = None
     if request.method == 'POST':
