@@ -50,3 +50,6 @@ def create():
 
 
 app.run(port=5001,debug=True)
+
+#concantenate pyhton code with html code (flask)
+#http://127.0.0.1:5001
