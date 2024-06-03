@@ -1,0 +1,21 @@
+Employee ID,First Name,Middle Name,Last Name,Sex,Language,Phone Number,Email Address,Login Name,Validity Start date,Validity End date
+30001,John,Ethan,Smith,M,E,+49 30 12345678,John1@sample.com,JohnSmith,20240326,20250101
+30002,Mary,Alexander,Johnson,F,E,+49 30 12345678,Mary2@sample.com,MaryJohnson,20240326,20250101
+30003,Michael,Ava,Williams,M,E,+49 30 12345678,Michael3@sample.com,MichaelWilliams,20240326,20250101
+30004,Jennifer,Mia,Brown,F,E,+49 30 12345678,Jennifer4@sample.com,JenniferBrown,20240326,20250101
+30005,David,Ethan,Jones,M,E,+49 30 12345678,David5@sample.com,DavidJones,20240326,20250101
+30006,Sarah,Benjamin,Garcia,F,E,+49 30 12345678,Sarah6@sample.com,SarahGarcia,20240326,20250101
+30007,Christopher,Liam,Miller,M,E,+49 30 12345678,Christopher7@sample.com,ChristopherMiller,20240326,20250101
+30008,Jessica,Sophia,Davis,F,E,+49 30 12345678,Jessica8@sample.com,JessicaDavis,20240326,20250101
+30009,Daniel,Isabella,Rodriguez,M,E,+49 30 12345678,Daniel9@sample.com,DanielRodriguez,20240326,20250101
+30010,Lisa,Noah,Martinez,F,E,+49 30 12345678,Lisa10@sample.com,LisaMartinez,20240326,20250101
+30011,Elizabeth,Grace,Thompson,F,E,+49 30 12345678,Elizabeth11@sample.com,ElizabethThompson,20240326,20250101
+30012,James,Alexander,Anderson,M,E,+49 30 12345678,James12@sample.com,JamesAnderson,20240326,20250101
+30013,Anne,Mia,Walker,F,E,+49 30 12345678,Anne13@sample.com,AnneWalker,20240326,20250101
+30014,Robert,Benjamin,Murphy,M,E,+49 30 12345678,Robert14@sample.com,RobertMurphy,20240326,20250101
+30015,Marie,Sophia,Evans,F,E,+49 30 12345678,Marie15@sample.com,MarieEvans,20240326,20250101
+30016,William,James,Baker,M,E,+49 30 12345678,William16@sample.com,WilliamBaker,20240326,20250101
+30017,Grace,Emily,Turner,F,E,+49 30 12345678,Grace17@sample.com,GraceTurner,20240326,20250101
+30018,Thomas,Jacob,Scott,M,E,+49 30 12345678,Thomas18@sample.com,ThomasScott,20240326,20250101
+30019,Rose,Ava,Young,M,E,+49 30 12345678,Rose19@sample.com,RoseYoung,20240326,20250101
+30020,Edward,Matthew,Stewart,M,E,+49 30 12345678,Edward20@sample.com,EdwardStewart,20240326,20250101

@@ -1,0 +1,10 @@
+Product Category ID,Product Category Name,Product ID,Created Date,Supplier Partner ID,Tac Tariff Code,Quantity Unit,Currency,Price
+40001,Enterprise Resource Planning,ERP,20240326,400001,1,EA,USD,"For pricing inquiries,please contact our staff."
+40002,Supply Chain Management,SCM,20240326,400002,1,EA,USD,"For pricing inquiries,please contact our staff."
+40003,Financial Management,FM,20240326,400003,1,EA,USD,"For pricing inquiries,please contact our staff."
+40004,Spend Management,SM,20240326,400004,1,EA,USD,"For pricing inquiries,please contact our staff."
+40005,Business Network,BN,20240326,400005,1,EA,USD,"For pricing inquiries,please contact our staff."
+40006,Human Capital Management,HCM,20240326,400006,1,EA,USD,"For pricing inquiries,please contact our staff."
+40007,CRM and Customer Experience,CRM & CE,20240326,400007,1,EA,USD,"For pricing inquiries,please contact our staff."
+40008,Sustainability Management,SM,20240326,400008,1,EA,USD,"For pricing inquiries,please contact our staff."
+40009,Small and Midsize Enterprises,S & M Enterprises,20240326,400009,1,EA,USD,"For pricing inquiries,please contact our staff."
