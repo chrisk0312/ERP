@@ -30,7 +30,7 @@ def process_pdf(pdf_path):
 
 # Example usage
 if __name__ == "__main__":
-    pdf_path = "C:\\study\\ERP_chatbot\\thesis1.pdf"
+    pdf_path = "C:\\study\\ERP_chatbot\\langchain\\thesis1.pdf"
     chatbot = process_pdf(pdf_path)
     
     # Test the chatbot
