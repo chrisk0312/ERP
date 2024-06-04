@@ -34,7 +34,7 @@ def fetch_pdf():
         return 'File not found'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='192.168.0.101', port=5000, debug=True)
     
     # internal ip adress is required
     #openai requires a public ip address
