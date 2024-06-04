@@ -35,3 +35,6 @@ def fetch_pdf():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
+    # internal ip adress is required
+    #openai requires a public ip address
