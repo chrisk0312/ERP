@@ -37,4 +37,5 @@ if __name__ == '__main__':
     app.run(host='192.168.0.101', port=5000, debug=True)
     
     # internal ip adress is required
-    #openai requires a public ip address
+    # openai requires a public ip address
+    #test 0610
