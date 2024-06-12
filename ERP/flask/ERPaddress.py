@@ -1,7 +1,4 @@
 from flask import Flask, render_template, request
-from PyPDF2 import PdfFileReader
-from flask import request
-from PyPDF2 import PdfReader
 app = Flask(__name__)
 
 @app.route('/')
