@@ -11,6 +11,10 @@ def home():
 def erp_index_html():
     return render_template('ERPindex.html')
 
+@app.route('/Address.html')
+def Address_html():
+    return render_template('Address.html')
+
 @app.route('/fetch_pdf', methods=['POST'])
 def fetch_pdf():
     pdf_path = 'C:\\study\\ERP_chatbot\\ERP\\flask\\thesis1.pdf'
