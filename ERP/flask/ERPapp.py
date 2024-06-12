@@ -15,6 +15,22 @@ def erp_index_html():
 def Address_html():
     return render_template('Address.html')
 
+@app.route('/BusinessPartners.html')
+def BusinessPartners_html():
+    return render_template('BusinessPartners.html')
+
+@app.route('/Employees.html')
+def Employees_html():
+    return render_template('Employees.html')
+
+@app.route('/Products.html')
+def Products_html():
+    return render_template('Products.html')
+
+@app.route('/Sales.html')
+def Sales_html():
+    return render_template('Sales.html')
+
 @app.route('/fetch_pdf', methods=['POST'])
 def fetch_pdf():
     pdf_path = 'C:\\study\\ERP_chatbot\\ERP\\flask\\thesis1.pdf'
