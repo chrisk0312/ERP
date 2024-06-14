@@ -6,22 +6,18 @@ dataset =pd.read_csv('C:\study\ERP_chatbot\ERP\datasets\Address.csv')
 
 @app.route('/')
 def home():
-    return render_template('Address.html')
+    return render_template('Address_S.html')
 
-@app.route('/search/', methods=['GET', 'POST'])
+@app.route('/search', methods=['POST'])
 def search():
-    if request.method == 'POST':
-        search_id = request.form['id']
-        # Assuming 'Address ID' is the column name in your CSV
-        result = dataset[dataset['Address ID'] == int(search_id)]
-        if not result.empty:
-            # Convert the result to HTML or a format that can be easily displayed
-            result_html = result.to_html()
-            return render_template('Address.html', result=result_html)
-        else:
-            return "No matching address found."
+    search_id = request.form['search_id']
+    # Perform the search
+    result = dataset[dataset['Address ID'] == int(search_id)]
+    if not result.empty:
+        # Pass the search results to the template
+        return render_template('Address_SR.html', tables=[result.to_html(classes='data')], titles=result.columns.values)
     else:
-        return render_template('Address.html')
+        return "No results found for the given Address ID."
 
 
 @app.route('/create/')
