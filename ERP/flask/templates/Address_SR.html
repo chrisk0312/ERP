@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+    <style>
+        .data {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .data td, .data th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .data tr:nth-child(even){background-color: #f2f2f2;}
+        .data tr:hover {background-color: #ddd;}
+        .data th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Search Results</h2>
+    {% for table in tables %}
+        {{ titles|safe }}
+        {{ table|safe }}
+    {% endfor %}
+</body>
+</html>
