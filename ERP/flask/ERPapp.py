@@ -59,4 +59,4 @@ if __name__ == '__main__':
     
     # internal ip adress is required
     # openai requires a public ip address
-    #test 0610
+    #test 0625
